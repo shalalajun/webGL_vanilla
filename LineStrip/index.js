@@ -99,5 +99,5 @@ function main( )
 
 	gl.viewport( 0, 0, canvas.width, canvas.height );
 
-	gl.drawArrays( gl.LINES, 0, 6 );
+	gl.drawArrays( gl.LINE_STRIP, 0, 6 );
 }
